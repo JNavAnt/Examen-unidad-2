@@ -1,0 +1,303 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  margin:0;
+
+}
+header{
+    color: white;
+}
+.index-header{
+  background-image: url("../img/img.jpg");
+  /*/height:600px;/*/
+  width: 100%;
+  display: flex;
+  flex-direction:column;
+  padding:2%;
+  padding-bottom: 10%;
+  background-size: cover; 
+
+}
+
+
+.banner{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.fa-headphones{
+  font-size: 300%;
+}
+
+.banner-menu{
+  width:75%;
+  display: flex;
+  font-size: 20px;
+  justify-content:flex-end;
+  align-items: center;
+  
+}
+
+.menu-opcion{
+  margin-right: 5%;
+  white-space:nowrap;
+}
+
+.btn-registrar{
+  background-color: #0C6798;
+  color:white;
+  margin: 15% auto;
+  height: 10%;
+  font-size: 100%;
+  padding-left:7%;
+  padding-right:7%;
+  padding-bottom:1.5%;
+  padding-top:1.5%;
+  text-align:center;
+  border-radius:30px;
+  display: block;
+  overflow: auto;
+
+}
+
+.banner-text{
+  font-size:250%;
+  margin-left:10%;
+}
+
+.sec-1{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  height:100%;
+  padding: 2%;
+  margin-bottom: 5%; 
+}
+
+.title{
+  text-align:center;
+  font-size: 200%;
+  color: #2468B9;
+  font-size: 300%;
+  font-weight: bold;
+  margin: 5% auto
+}
+
+.planes{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  height:100%; 
+}
+
+.plan{
+  width: 25%;
+  height: 300px;
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+  outline: solid;
+  outline-width: thin;
+  background-image: -webkit-linear-gradient(80deg, white 50%, #0C6798 50%);
+
+}
+
+
+.usuario:hover{
+  border-bottom: 2px solid white;
+
+}
+.usuario{
+  color:white;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 140%;
+}
+
+.precio{
+  height: 50%;
+  font-weight: bold;
+  font-size: 140%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec-2{
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  background-image: linear-gradient(#67E8CF, #3272D8);
+  width:100%;
+  margin: 0 auto;
+  color: white;
+  padding-top:5%;
+  padding-bottom:5%;
+  margin-bottom: 5%;
+  height: 300px;
+}
+
+.sec-2-block{
+  margin: 0 auto;
+}
+
+.sec-2-text{
+  text-align:left;
+  padding:1%;
+  font-size: 200%;
+  width: 100%;
+}
+
+.sec-2-text i{
+  width: 30px;
+}
+
+footer{
+  background-color:#0C6798;
+  color: white;
+  text-align: center;
+  padding:1%;
+}
+
+/*/
+-login-
+/*/
+
+.login-header{
+  background-color: #0C6798;
+  text-align: center;
+  padding: 1%;
+}
+
+.login-body{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 25%;
+
+}
+
+.login-registrar-1{
+  background-color: #3B5998;
+  color:white;
+  margin: 0 auto;
+  margin-top: 15%;
+  font-size: 100%;
+  width: 100%;
+  padding-bottom:5%;
+  padding-top:5%;
+  text-align:center;
+  border-radius:30px;
+}
+
+.login-sep{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+.login-sep hr{
+  width: 40%;
+}
+.login-input{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.input{
+  margin-bottom: 5%;
+  border-radius: 5px;
+}
+
+.login-registrar-2{
+  background-color: #2468B9;
+  color:white;
+  margin: 0 auto;
+  margin-top: 10%;
+  font-size: 100%;
+  width: 75%;
+  padding-bottom:2.5%;
+  padding-top:2.5%;
+  text-align:center;
+  border-radius:30px;
+}
+
+.login-recuperar{
+  font-size: 75%;
+  text-align: center;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 480px){
+  .index-header{
+    margin-bottom: 10%;
+  }
+  .banner{
+    flex-direction: column;
+    align-items: center;
+  }
+  .banner i{
+    padding-bottom: 50%;
+  }
+  .banner-menu{
+    width: 100%;
+  }
+
+  .btn-registrar{
+    padding-top:4% ;
+    padding-bottom:4% ;
+  }
+  .banner-text{
+    margin: 0 auto;
+  }
+  .planes{
+      flex-direction: column;
+      width: 100%;
+      margin: 0 auto;
+  }
+  .plan{
+      width: 75%;
+      margin: 10% auto;
+  }
+  .sec-2-block{
+    font-size: 75%;
+  }
+  .sec-2-text{
+    margin-bottom: 10%;
+  }
+
+  .login-body{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px){
+  .plan{
+    height: 200px;
+  }
+  .index-header{
+    width: 100%;
+  }
+  .btn-registrar{
+    padding-left:5%;
+    padding-right:5%;
+  }
+  .login-body{
+    width: 40%;
+  }
+}
